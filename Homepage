@@ -1,1 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Name</title>
 
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg: #ffffff;
+      --text: #0f172a;
+      --muted: #64748b;
+      --border: #e5e7eb;
+      --accent: #0f172a;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 720px;
+      padding: 80px 24px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      font-size: 32px;
+      font-weight: 600;
+      margin-bottom: 12px;
+    }
+
+    h2 {
+      font-size: 18px;
+      font-weight: 600;
+      margin-top: 64px;
+      margin-bottom: 12px;
+    }
+
+    p {
+      margin: 0 0 16px 0;
+      color: var(--text);
+    }
+
+    .muted {
+      color: var(--muted);
+    }
+
+    ul {
+      padding-left: 18px;
+      margin: 0;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      border-bottom: 1px solid var(--border);
+    }
+
+    a:hover {
+      border-bottom-color: var(--accent);
+    }
+
+    footer {
+      margin-top: 80px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      font-size: 14px;
+      color: var(--muted);
+    }
+  </style>
+</head>
+
+<body>
+  <main class="container">
+    <!-- Header -->
+    <h1>Your Name</h1>
+    <p class="muted">
+      Short one-line description (e.g. finance × tech, growth equity, infrastructure, writing).
+    </p>
+
+    <!-- About -->
+    <h2>About</h2>
+    <p>
+      Brief paragraph about who you are, what you’re interested in, and what you’re currently focused on.
+      Keep this concise and high-signal.
+    </p>
+
+    <!-- Experience -->
+    <h2>Experience</h2>
+    <ul>
+      <li>
+        <strong>Role / Company</strong> — one-line description of scope or impact.
+      </li>
+      <li>
+        <strong>Role / Company</strong> — one-line description.
+      </li>
+    </ul>
+
+    <!-- Projects -->
+    <h2>Projects</h2>
+    <ul>
+      <li>
+        <a href="#">Project Name</a> — one-line description of what it is or why it matters.
+      </li>
+      <li>
+        <a href="#">Project Name</a> — short explanation.
+      </li>
+    </ul>
+
+    <!-- Writing -->
+    <h2>Writing</h2>
+    <ul>
+      <li>
+        <a href="#">Essay or Post Title</a>
+      </li>
+      <li>
+        <a href="#">Essay or Post Title</a>
+      </li>
+    </ul>
+
+    <!-- Books -->
+    <h2>Books</h2>
+    <ul>
+      <li>
+        <em>Book Title</em> — short note on why it influenced you.
+      </li>
+      <li>
+        <em>Book Title</em> — optional comment.
+      </li>
+    </ul>
+
+    <!-- Footer -->
+    <footer>
+      <p>
+        <a href="#">X</a> · <a href="#">GitHub</a> · <a href="#">Email</a>
+      </p>
+    </footer>
+  </main>
+</body>
+</html>
